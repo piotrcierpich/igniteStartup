@@ -19,4 +19,12 @@ public class City {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return "City{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				'}';
+	}
 }
